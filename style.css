@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body {
+    background-color: #222222;
+}
+
+div.poster-background {
+    z-index: -4;
+    position: absolute;
+    left: 0;
+
+    margin: auto;
+
+    height: 68.8rem;
+    width: 100%;
+    background-image: url(./imagens/plano-de-fundo-netflix.jpg);
+    opacity: 5;
+}
+
+div.opacity-background {
+    z-index: -3;
+    position: absolute;
+    left: 0;
+
+    height: 68.8rem;
+    width: 100%;
+
+    background: linear-gradient(to top, #000, #000);
+    opacity: 0.5;
+}
+
+div.main {
+    height: 68.8rem;
+}
+
+header {
+    display: flex;
+    gap: 90rem;
+    justify-content: center;
+
+    width: 100%;
+
+    margin-bottom: 15rem;
+    
+    padding-top: 2.5rem;
+    
+    background-color:  transparent;
+}
+
+svg {
+    fill: #e50914;
+    width: 14.5rem;
+    height: 3.5rem;
+}
+
+div.sign-in-has-language-select {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+select.language-option {
+    border: 1px solid #fff;
+
+    width: 10rem;
+    height: 3.6rem;
+
+    font-size: 1.4rem; 
+    font-weight: bold;
+    color: #fff;
+
+    background-color: transparent;
+}
+
+select.language-option > option {
+    font-size: 1.4rem;
+    background-color: black;;
+}
+
+a.acces-button {
+    background-color: #E50914;
+    
+    padding: 0.9rem 1.7rem;
+    
+    height: 3.6rem;
+
+    border-radius: 0.3rem;
+
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+div.describe {
+    height: 30rem;
+    width: 95rem;
+    margin: auto;
+
+    text-align: center;
+}
+
+div.describe h1 {
+    font-size: 5rem;
+    font-weight: bolder;
+    color: white;
+}
+
+div.describe h2 {
+    font-size: 3rem;
+    color: white;
+
+    font-weight: normal;
+
+    margin-bottom: 3rem;
+}
+
+.cta-form  h3{
+    font-size: 2rem;
+    font-weight: normal;
+    color: white;
+}
+
+.cta-form input {
+    font-size: 2rem;
+    color: #000;    
+
+    padding: 1rem 1rem;
+}
+
+div.start {
+    display: flex;
+
+    justify-content: center;
+    padding-top: 1.5rem;
+}
+
+form.cta-form input {
+    width: 45rem;
+    height: 6rem;
+}
+
+a.get-started {
+    width: 21.2rem;
+    height: 6rem;
+    padding: 1.9rem 1.9rem;
+
+    background-color: #E50914;
+    color: white;
+
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+section.cards {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20rem;
+
+    width: 100%;
+    height: 40rem;
+    padding: 0rem 12rem;
+
+    margin-top: 1rem;
+    background-color: #000;    
+}
+
+div.animation-cards video {
+    display: inline-block;
+    position: absolute;
+    z-index: -9;
+    top: 0;
+    width: 20rem;
+    height: 20rem;
+}
+
+section.cards img {
+    height: 30rem;
+}
+
+section.cards h1 {
+    font-size: 5rem;
+}
+
+section.cards h2 {
+    padding-top: 2rem;
+    font-size: 2.6rem;
+    font-weight: normal;
+}
+
+section.faq {
+    height: 90rem;
+    
+    background-color: #000;
+    
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 6rem;
+}
+
+section.faq h1 {
+    font-size: 5rem;
+
+    text-align: center;
+    margin-inline: auto;
+    margin-bottom: 5rem;
+}
+
+section.faq ul {
+    width: 81.5rem;
+    margin: auto;
+
+    list-style: none;
+}
+
+section.faq ul li {
+    margin-bottom: 0.8rem;
+}
+
+button.question {
+    display: flex;
+    gap: 30rem;
+    justify-content: center;
+    align-items: center;
+
+    width: 81.5rem;
+    height: 7.3rem;
+
+    padding: 1rem 2.5rem;
+
+    background-color: #303030;
+}
+
+span.text-question {
+    width: 40rem;
+    font-size: 2.8rem;
+
+    text-align: left;
+}
+
+button.question svg {
+    width: 5rem;
+
+    fill: white;
+}
+
+section.faq .cta-form  h3{
+    margin-top: 6rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: normal;
+    color: white;
+}
+
+footer {
+    height: 45rem;
+
+    padding-top: 8rem;
+    padding-left: 20rem;
+    background-color: #000;
+}
+
+footer p {
+    font-size: 1.6rem;
+    color: #757575;
+}
+
+.items-menu {
+    display: flex;
+    gap: 10rem;
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 70%;
+}
+
+.items-menu li {
+    margin-bottom: 1.5rem;
+
+    list-style: none;
+}
+
+.items-menu li a{
+    font-size: 1.4rem;
+    color: #757575;
+    text-decoration: none;
+}
+
+footer select.language-option {
+    border: 1px solid #757575;
+
+    width: 13rem;
+    height: 5rem;
+
+    margin-bottom: 2rem;
+
+    font-size: 1.4rem; 
+    font-weight: bold;
+    color: #757575;
+
+    background-color: transparent;
+}
+
+footer select.language-option > option {
+    font-size: 1.4rem;
+    background-color: black;;
+}
+
+
+
+
